@@ -1,0 +1,59 @@
+@media (max-width: 400px) {
+	.logo {
+		max-width: 180px !important;
+	}
+}
+
+@media (min-width: 400px) {
+	.logo {
+		max-width: 250px !important;
+	}
+
+	.card {
+		width: 400px !important;
+	}
+}
+
+body {
+	display: flex;
+	min-height: 100vh;
+	align-items: center;
+	justify-content: center;
+	background-color: #2b2b2b !important;
+}
+
+.card {
+	background-color: transparent;
+	border: none;
+	color: white;
+}
+
+.btn {
+	background-color: transparent;
+		border: 2px solid white;
+		color: white;
+		padding: 10px 20px;
+		font-size: 16px;
+	font-size: 13px;
+	cursor: pointer;
+}
+
+.btn:hover {
+	background-color: #ffeee1;
+	color: grey;
+	cursor: pointer;
+}
+
+.text-description {
+	font-size: 13px;
+}
+
+.footer-title {
+	color: black !important;
+	font-size: 13px;
+}
+
+.text-white {
+	color: white;
+	font-size: 10px;
+}
